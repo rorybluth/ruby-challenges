@@ -1,0 +1,6 @@
+fav_color = "blue"
+if fav_color== "blue" then puts "Blue is icy"
+elsif fav_color==orange" then puts "Orange rocks"
+elsif fav_color == "purple" then puts "Purple plums are the best"
+else
+puts "Interesting choice"

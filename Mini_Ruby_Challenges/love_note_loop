@@ -1,0 +1,13 @@
+puts "How are you today?"
+answer = gets.chomp
+
+while (answer.downcase == "good")
+	puts "Anywhere you go, let me go too\nLove me, that's all I ask of you\nHow are you?"
+	answer = gets.chomp
+
+=begin while (answer.downcase == "fine")
+	puts "Just remember: someone is on your side. Someone else is not. While we're seeing our side, maybe we forgot--they are not alone. No one is alone. Someone is on your side. No one is alone. \nHow are you?"
+	answer = gets.chomp
+=end
+end
+
